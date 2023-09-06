@@ -154,19 +154,19 @@ fieldset legend {
   position: relative;
 }
 
-.checkbox-wrapper label {
-  margin: 0;
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
-
 .checkbox-wrapper input {
   position: absolute;
   opacity: 0;
   cursor: pointer;
   width: 24px;
   height: 24px;
+}
+
+.checkbox-wrapper label {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .checkbox-wrapper label::before {
