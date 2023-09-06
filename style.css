@@ -162,13 +162,6 @@ fieldset legend {
   height: 24px;
 }
 
-.checkbox-wrapper label {
-  margin: 0;
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
-
 .checkbox-wrapper label::before {
   content: "";
   width: 24px;
@@ -176,6 +169,13 @@ fieldset legend {
   border: 1px solid #e6e6f0;
   display: block;
   border-radius: 8px;
+}
+
+.checkbox-wrapper label {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .checkbox-wrapper input:checked + label::before {
