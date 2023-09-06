@@ -178,9 +178,13 @@ fieldset legend {
   gap: 16px;
 }
 
+/* minha label::before seria o meu checkbox personalizado neste contexto, aqui eu digo que ao meu input estar selecionado, a minha label que é o meu botão verdadeiro que personalizei, vai receber esse tipo diferente de selecionado */
+
 .checkbox-wrapper input:checked + label::before {
   background: url("data:image/svg+xml,%3Csvg width='24' height='24'%0AviewBox='0 0 24 24' fill='none'%0Axmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.00016 16.1698L4.83016%0A11.9998L3.41016 13.4098L9.00016%0A18.9998L21.0002 6.99984L19.5902%0A5.58984L9.00016 16.1698Z'%0Afill='%2342D3FF' /%3E%3C/svg%3E");
 }
+
+/* aqui eu digo que quando meu botão estiver focado com o meu tab, ele vai ficar mais visivel ao usuario, com o outline deixando as bordas do meu checkbox preta */
 
 .checkbox-wrapper input:focus + label::before {
   outline: 2px solid black;
