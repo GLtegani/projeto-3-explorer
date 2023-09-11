@@ -8,7 +8,6 @@
 
 body,
 input,
-button,
 select,
 textarea {
   font-family: "Poppins", sans-serif;
@@ -60,7 +59,7 @@ form {
   margin-top: 2.7rem;
   background: #fafafc;
   min-height: 300px;
-  border-radius: 8px 8px 0px 8px;
+  border-radius: 8px 8px 0px 0px;
   padding: 64px;
   display: flex;
   flex-direction: column;
@@ -188,4 +187,38 @@ fieldset legend {
 
 .checkbox-wrapper input:focus + label::before {
   outline: 2px solid black;
+}
+
+footer {
+  background: #f0f0f4;
+  height: 136px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 64px;
+  margin-bottom: 100px;
+  border-top: 1px solid #d6d6d6;
+  border-radius: 0 0 8px 8px;
+}
+
+footer button {
+  height: 56px;
+  background: #04d361;
+  border-radius: 8px;
+  border: 0;
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: white;
+}
+
+footer button:hover {
+  background: #108042;
+  cursor: pointer;
+}
+
+/* sudoclasses servem para ver o estado do seu elemento */
+
+input:invalid {
+  border: 1px solid #ff1010;
 }
