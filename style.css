@@ -125,8 +125,9 @@ fieldset legend {
 }
 
 .input-wrapper textarea {
-  padding: 0;
+  padding-top: 6px;
   height: 168px;
+  resize: none;
 }
 
 .input-wrapper select {
@@ -215,6 +216,7 @@ footer button {
 footer button:hover {
   background: #108042;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 /* sudoclasses servem para ver o estado do seu elemento */
